@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>যোগাযোগ করুন | Visa Verification Center Bangladesh</title>
+  <meta name="description" content="ভিসা ভেরিফিকেশন সেন্টারের সাথে যোগাযোগ করুন — WhatsApp, ইমেইল বা অনলাইন ফর্মের মাধ্যমে।" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Hind+Siliguri:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --navy: #0d1f3c;
+      --navy-mid: #1a3560;
+      --navy-light: #243d6e;
+      --gold: #b8902e;
+      --gold-light: #d4a843;
+      --gold-pale: #f5e9c0;
+      --white: #ffffff;
+      --cream: #faf8f3;
+      --text-dark: #0d1f3c;
+      --text-mid: #2c3e6b;
+      --text-light: #6b7a99;
+      --green: #25d366;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Hind Siliguri', sans-serif; background: var(--cream); color: var(--text-dark); overflow-x: hidden; }
+
+    /* ─── HEADER ─── */
+    header {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      background: rgba(13,31,60,0.97); backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(184,144,46,0.3);
+    }
+    .header-top {
+      background: linear-gradient(90deg, var(--navy), var(--navy-mid));
+      padding: 6px 0; border-bottom: 1px solid rgba(184,144,46,0.12);
+    }
+    .header-top-inner {
+      max-width: 1200px; margin: 0 auto; padding: 0 24px;
+      display: flex; align-items: center; justify-content: space-between;
+      font-size: 0.78rem; color: rgba(255,255,255,0.65);
+    }
+    .header-top-inner a { color: var(--gold-light); text-decoration: none; }
+    .header-top-inner .ht-right { display: flex; gap: 20px; }
+    nav {
+      max-width: 1200px; margin: 0 auto; padding: 0 24px;
+      display: flex; align-items: center; justify-content: space-between; height: 72px;
+    }
+    .logo-wrap { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+    .logo-text { display: flex; flex-direction: column; }
+    .logo-text .lt-main { font-family: 'Playfair Display', serif; font-size: 1.15rem; color: var(--white); font-weight: 700; line-height: 1.1; }
+    .logo-text .lt-sub { font-size: 0.65rem; color: var(--gold-light); letter-spacing: 0.12em; text-transform: uppercase; }
+    .nav-links { display: flex; align-items: center; gap: 2px; list-style: none; }
+    .nav-links a { display: block; padding: 8px 16px; color: rgba(255,255,255,0.85); text-decoration: none; font-size: 0.9rem; font-weight: 500; border-radius: 6px; transition: all 0.25s; position: relative; }
+    .nav-links a.active { color: var(--gold-light); }
+    .nav-links a::after { content: ''; position: absolute; bottom: 4px; left: 50%; right: 50%; height: 2px; background: var(--gold-light); transition: all 0.25s; border-radius: 2px; }
+    .nav-links a:hover::after, .nav-links a.active::after { left: 16px; right: 16px; }
+    .nav-cta { background: linear-gradient(135deg, var(--gold), var(--gold-light)) !important; color: var(--navy) !important; font-weight: 700 !important; border-radius: 8px !important; padding: 10px 20px !important; box-shadow: 0 4px 16px rgba(184,144,46,0.3); }
+    .nav-cta::after { display: none !important; }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 4px; }
+    .hamburger span { display: block; width: 26px; height: 2px; background: var(--white); border-radius: 2px; }
+    .mobile-nav { display: none; position: fixed; inset: 0; background: rgba(13,31,60,0.98); z-index: 999; flex-direction: column; align-items: center; justify-content: center; gap: 12px; }
+    .mobile-nav.open { display: flex; }
+    .mobile-nav a { color: var(--white); text-decoration: none; font-size: 1.4rem; font-weight: 600; padding: 12px 40px; border-bottom: 1px solid rgba(184,144,46,0.2); width: 80%; text-align: center; }
+    .mobile-nav a:hover { color: var(--gold-light); }
+    .mobile-nav-close { position: absolute; top: 20px; right: 24px; color: var(--white); font-size: 2rem; cursor: pointer; background: none; border: none; }
+
+    /* ═══════════════════════
+       HERO
+    ═══════════════════════ */
+    .page-hero {
+      padding-top: 112px; padding-bottom: 0;
+      background: linear-gradient(145deg, #060e1c 0%, var(--navy) 45%, var(--navy-mid) 100%);
+      position: relative; overflow: hidden;
+    }
+    .hero-grid-bg {
+      position: absolute; inset: 0;
+      background-image: linear-gradient(rgba(184,144,46,0.05) 1px, transparent 1px),
+                        linear-gradient(90deg, rgba(184,144,46,0.05) 1px, transparent 1px);
+      background-size: 60px 60px;
+      mask-image: radial-gradient(ellipse at 50% 0%, rgba(0,0,0,0.5) 0%, transparent 70%);
+    }
+    .hero-glow {
+      position: absolute; top: 0; left: 50%; transform: translateX(-50%);
+      width: 800px; height: 400px;
+      background: radial-gradient(ellipse at center top, rgba(184,144,46,0.1) 0%, transparent 65%);
+    }
+    .hero-inner {
+      max-width: 1200px; margin: 0 auto; padding: 0 24px;
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 0; align-items: end; position: relative; z-index: 2;
+    }
+    .hero-left { padding: 56px 48px 64px 0; }
+    .page-tag {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(184,144,46,0.15); border: 1px solid rgba(184,144,46,0.35);
+      border-radius: 100px; padding: 6px 18px; margin-bottom: 20px;
+      font-size: 0.75rem; color: var(--gold-light); font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase;
+    }
+    .hero-title { font-family: 'Playfair Display', serif; font-size: clamp(2.2rem, 4vw, 3.2rem); color: var(--white); font-weight: 800; line-height: 1.2; margin-bottom: 16px; }
+    .hero-title em { color: var(--gold-light); font-style: italic; }
+    .hero-desc { font-size: 1rem; color: rgba(255,255,255,0.65); line-height: 1.85; margin-bottom: 36px; }
+    .hero-quick-btns { display: flex; flex-direction: column; gap: 12px; }
+    .hqb {
+      display: flex; align-items: center; gap: 14px;
+      padding: 16px 20px; border-radius: 14px;
+      text-decoration: none; transition: all 0.3s;
+      border: 1px solid transparent;
+    }
+    .hqb-wa { background: rgba(37,211,102,0.12); border-color: rgba(37,211,102,0.3); }
+    .hqb-wa:hover { background: rgba(37,211,102,0.2); border-color: rgba(37,211,102,0.6); transform: translateX(4px); }
+    .hqb-email { background: rgba(184,144,46,0.1); border-color: rgba(184,144,46,0.25); }
+    .hqb-email:hover { background: rgba(184,144,46,0.18); border-color: rgba(184,144,46,0.5); transform: translateX(4px); }
+    .hqb-icon { width: 44px; height: 44px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; flex-shrink: 0; }
+    .hqb-wa .hqb-icon { background: rgba(37,211,102,0.2); }
+    .hqb-email .hqb-icon { background: rgba(184,144,46,0.2); }
+    .hqb-text { flex: 1; }
+    .hqb-label { font-size: 0.78rem; color: rgba(255,255,255,0.45); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 3px; }
+    .hqb-value { font-size: 0.95rem; font-weight: 700; color: var(--white); }
+    .hqb-arrow { color: rgba(255,255,255,0.3); font-size: 1.2rem; }
+
+    /* Hero right — decorative panel */
+    .hero-right {
+      background: rgba(255,255,255,0.03);
+      border-left: 1px solid rgba(184,144,46,0.12);
+      padding: 56px 0 0 48px;
+      display: flex; flex-direction: column; gap: 0;
+    }
+    .info-card {
+      padding: 24px 0;
+      border-bottom: 1px solid rgba(184,144,46,0.1);
+      display: flex; align-items: flex-start; gap: 16px;
+    }
+    .info-card:last-child { border-bottom: none; }
+    .ic-icon {
+      width: 44px; height: 44px; border-radius: 12px; flex-shrink: 0;
+      background: rgba(184,144,46,0.12);
+      display: flex; align-items: center; justify-content: center; font-size: 1.1rem;
+    }
+    .ic-body { }
+    .ic-label { font-size: 0.72rem; color: rgba(255,255,255,0.4); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 4px; }
+    .ic-value { font-size: 0.92rem; font-weight: 600; color: var(--white); margin-bottom: 3px; }
+    .ic-note { font-size: 0.78rem; color: rgba(255,255,255,0.45); }
+
+    /* ═══════════════════════
+       WHATSAPP CTA STRIP
+    ═══════════════════════ */
+    .wa-strip {
+      background: linear-gradient(90deg, #128C7E 0%, #25d366 50%, #128C7E 100%);
+      padding: 28px 0;
+    }
+    .wa-strip-inner {
+      max-width: 1200px; margin: 0 auto; padding: 0 24px;
+      display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap;
+    }
+    .wa-strip-text { }
+    .wa-strip-text h3 { font-family: 'Playfair Display', serif; font-size: 1.3rem; color: var(--white); font-weight: 700; margin-bottom: 4px; }
+    .wa-strip-text p { font-size: 0.88rem; color: rgba(255,255,255,0.8); }
+    .wa-big-btn {
+      display: inline-flex; align-items: center; gap: 12px;
+      background: var(--white); color: #128C7E;
+      font-family: 'Hind Siliguri', sans-serif;
+      font-size: 1rem; font-weight: 800;
+      padding: 16px 32px; border-radius: 14px;
+      text-decoration: none;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+      transition: all 0.3s; white-space: nowrap;
+    }
+    .wa-big-btn:hover { transform: translateY(-3px); box-shadow: 0 12px 40px rgba(0,0,0,0.3); }
+    .wa-big-btn svg { width: 24px; height: 24px; fill: #25d366; }
+
+    /* ═══════════════════════
+       MAIN CONTACT SECTION
+    ═══════════════════════ */
+    .contact-main { padding: 80px 0; background: var(--white); }
+    .contact-inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; display: grid; grid-template-columns: 1fr 1.1fr; gap: 64px; align-items: start; }
+
+    /* ─ LEFT: FORM ─ */
+    .form-wrap { }
+    .section-tag { display: inline-flex; align-items: center; gap: 8px; color: var(--gold); font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 12px; }
+    .section-tag::before { content: ''; display: block; width: 28px; height: 2px; background: var(--gold); border-radius: 2px; }
+    .section-title { font-family: 'Playfair Display', serif; font-size: clamp(1.6rem, 3vw, 2.2rem); color: var(--navy); font-weight: 700; margin-bottom: 8px; line-height: 1.25; }
+    .gold-line { display: block; width: 60px; height: 3px; background: linear-gradient(90deg, var(--gold), transparent); margin: 14px 0 32px; border-radius: 2px; }
+
+    .contact-form { display: flex; flex-direction: column; gap: 18px; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .form-group { display: flex; flex-direction: column; gap: 7px; }
+    .form-label { font-size: 0.82rem; font-weight: 600; color: var(--navy); letter-spacing: 0.02em; }
+    .form-label span { color: var(--gold); }
+    .form-input, .form-select, .form-textarea {
+      font-family: 'Hind Siliguri', sans-serif;
+      font-size: 0.92rem; color: var(--text-dark);
+      background: var(--cream);
+      border: 1.5px solid rgba(184,144,46,0.18);
+      border-radius: 10px; padding: 13px 16px;
+      outline: none; transition: all 0.25s; width: 100%;
+    }
+    .form-input:focus, .form-select:focus, .form-textarea:focus {
+      border-color: var(--gold); background: var(--white);
+      box-shadow: 0 0 0 3px rgba(184,144,46,0.1);
+    }
+    .form-input::placeholder, .form-textarea::placeholder { color: rgba(107,122,153,0.6); }
+    .form-select { cursor: pointer; appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%23b8902e' d='M1 1l5 5 5-5'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 14px center; padding-right: 36px; }
+    .form-textarea { resize: vertical; min-height: 120px; line-height: 1.6; }
+
+    .char-count { font-size: 0.72rem; color: var(--text-light); text-align: right; margin-top: 4px; }
+
+    .service-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .chip {
+      display: flex; align-items: center; gap: 6px;
+      padding: 8px 14px; border-radius: 100px;
+      border: 1.5px solid rgba(184,144,46,0.2);
+      font-size: 0.82rem; font-weight: 600; color: var(--text-light);
+      cursor: pointer; transition: all 0.2s; user-select: none;
+      background: var(--cream);
+    }
+    .chip:hover { border-color: var(--gold); color: var(--gold); }
+    .chip.selected { background: var(--navy); border-color: var(--navy); color: var(--white); }
+    .chip.selected .chip-dot { background: var(--gold-light); }
+    .chip-dot { width: 6px; height: 6px; border-radius: 50%; background: rgba(184,144,46,0.4); transition: background 0.2s; }
+
+    .submit-btn {
+      width: 100%; padding: 16px;
+      background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 100%);
+      color: var(--white); font-family: 'Hind Siliguri', sans-serif;
+      font-size: 1rem; font-weight: 700;
+      border: none; border-radius: 12px; cursor: pointer;
+      display: flex; align-items: center; justify-content: center; gap: 10px;
+      transition: all 0.3s;
+      box-shadow: 0 6px 24px rgba(13,31,60,0.2);
+    }
+    .submit-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 32px rgba(13,31,60,0.3); }
+
+    .form-note {
+      display: flex; align-items: flex-start; gap: 8px;
+      font-size: 0.8rem; color: var(--text-light); line-height: 1.6;
+      padding: 14px 16px; background: rgba(184,144,46,0.06);
+      border-radius: 10px; border: 1px solid rgba(184,144,46,0.15);
+    }
+
+    /* Success state */
+    .form-success {
+      display: none; text-align: center; padding: 48px 32px;
+      background: var(--white); border-radius: 20px;
+      border: 1px solid rgba(37,211,102,0.2);
+    }
+    .fs-icon { font-size: 3rem; margin-bottom: 16px; }
+    .fs-title { font-family: 'Playfair Display', serif; font-size: 1.5rem; color: var(--navy); font-weight: 700; margin-bottom: 8px; }
+    .fs-desc { font-size: 0.92rem; color: var(--text-light); line-height: 1.75; margin-bottom: 24px; }
+
+    /* ─ RIGHT: INFO CARDS ─ */
+    .info-side { display: flex; flex-direction: column; gap: 20px; }
+
+    .contact-card {
+      background: var(--cream); border: 1px solid rgba(184,144,46,0.15);
+      border-radius: 20px; padding: 28px; transition: all 0.3s;
+      text-decoration: none; display: block;
+    }
+    .contact-card:hover { border-color: var(--gold); box-shadow: 0 8px 32px rgba(13,31,60,0.08); transform: translateY(-2px); }
+    .cc-head { display: flex; align-items: center; gap: 14px; margin-bottom: 14px; }
+    .cc-icon { width: 52px; height: 52px; border-radius: 14px; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; flex-shrink: 0; }
+    .cc-icon-wa { background: rgba(37,211,102,0.12); }
+    .cc-icon-email { background: rgba(184,144,46,0.12); }
+    .cc-icon-time { background: rgba(13,31,60,0.08); }
+    .cc-title { font-family: 'Playfair Display', serif; font-size: 1.05rem; color: var(--navy); font-weight: 700; }
+    .cc-sub { font-size: 0.78rem; color: var(--text-light); }
+    .cc-value { font-size: 1.1rem; font-weight: 800; color: var(--navy); margin-bottom: 6px; }
+    .cc-desc { font-size: 0.85rem; color: var(--text-light); line-height: 1.65; }
+    .cc-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(37,211,102,0.1); border: 1px solid rgba(37,211,102,0.25);
+      border-radius: 100px; padding: 4px 12px; margin-top: 10px;
+      font-size: 0.75rem; color: #16a34a; font-weight: 600;
+    }
+    .cc-badge-dot { width: 6px; height: 6px; border-radius: 50%; background: #16a34a; animation: blink 2s ease-in-out infinite; }
+    @keyframes blink { 0%,100%{opacity:1}50%{opacity:0.4} }
+
+    .hours-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 4px; }
+    .hour-item { background: var(--white); border-radius: 10px; padding: 12px 14px; }
+    .hi-day { font-size: 0.75rem; color: var(--text-light); margin-bottom: 3px; }
+    .hi-time { font-size: 0.88rem; font-weight: 700; color: var(--navy); }
+
+    /* Payment section */
+    .payment-strip {
+      background: linear-gradient(135deg, var(--navy), var(--navy-mid));
+      border-radius: 20px; padding: 28px;
+      border: 1px solid rgba(184,144,46,0.2);
+    }
+    .ps-title { font-family: 'Playfair Display', serif; font-size: 1rem; color: var(--white); font-weight: 700; margin-bottom: 16px; display: flex; align-items: center; gap: 10px; }
+    .ps-methods { display: flex; gap: 10px; flex-wrap: wrap; }
+    .pm { background: rgba(255,255,255,0.08); border: 1px solid rgba(184,144,46,0.2); border-radius: 10px; padding: 10px 16px; text-align: center; font-size: 0.8rem; font-weight: 600; color: rgba(255,255,255,0.75); }
+    .pm span { display: block; font-size: 1.1rem; margin-bottom: 4px; }
+    .ps-warning { margin-top: 14px; font-size: 0.78rem; color: rgba(255,200,100,0.85); display: flex; gap: 8px; align-items: flex-start; line-height: 1.6; }
+
+    /* ═══════════════════════
+       FAQ SECTION
+    ═══════════════════════ */
+    .faq-section { background: var(--cream); padding: 80px 0; }
+    .faq-inner { max-width: 900px; margin: 0 auto; padding: 0 24px; }
+    .faq-grid { display: flex; flex-direction: column; gap: 12px; margin-top: 8px; }
+    .faq-item { background: var(--white); border: 1px solid rgba(184,144,46,0.12); border-radius: 14px; overflow: hidden; transition: border-color 0.25s; }
+    .faq-item:hover { border-color: rgba(184,144,46,0.3); }
+    .faq-question { padding: 20px 24px; display: flex; align-items: center; justify-content: space-between; cursor: pointer; gap: 12px; }
+    .faq-question span { font-size: 0.92rem; font-weight: 600; color: var(--navy); line-height: 1.5; }
+    .faq-toggle { width: 28px; height: 28px; border-radius: 50%; background: rgba(184,144,46,0.1); color: var(--gold); display: flex; align-items: center; justify-content: center; font-size: 1.1rem; font-weight: 700; flex-shrink: 0; transition: all 0.25s; }
+    .faq-item.open .faq-toggle { background: var(--gold); color: var(--navy); transform: rotate(45deg); }
+    .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.35s ease; }
+    .faq-item.open .faq-answer { max-height: 300px; }
+    .faq-answer-inner { padding: 0 24px 20px; font-size: 0.88rem; color: var(--text-light); line-height: 1.75; border-top: 1px solid rgba(184,144,46,0.1); padding-top: 16px; }
+
+    /* ═══════════════════════
+       DIGITAL SERVICE BANNER
+    ═══════════════════════ */
+    .digital-banner {
+      background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 60%, #1e3a7a 100%);
+      padding: 72px 0; position: relative; overflow: hidden;
+    }
+    .digital-banner::before { content: ''; position: absolute; inset: 0; background: radial-gradient(circle at 70% 50%, rgba(184,144,46,0.08) 0%, transparent 50%); }
+    .digital-banner-inner { max-width: 1000px; margin: 0 auto; padding: 0 24px; display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; position: relative; z-index: 2; }
+    .db-left h2 { font-family: 'Playfair Display', serif; font-size: clamp(1.6rem, 3vw, 2.2rem); color: var(--white); margin-bottom: 12px; font-weight: 700; }
+    .db-left p { font-size: 0.95rem; color: rgba(255,255,255,0.65); line-height: 1.8; }
+    .db-right { display: flex; flex-direction: column; gap: 14px; }
+    .db-step { display: flex; align-items: center; gap: 14px; background: rgba(255,255,255,0.06); border: 1px solid rgba(184,144,46,0.18); border-radius: 14px; padding: 16px 20px; }
+    .dbs-num { width: 36px; height: 36px; border-radius: 50%; background: linear-gradient(135deg, var(--gold), var(--gold-light)); color: var(--navy); font-family: 'Playfair Display', serif; font-size: 0.9rem; font-weight: 800; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .dbs-text { font-size: 0.88rem; color: rgba(255,255,255,0.8); font-weight: 500; }
+
+    /* ─── FOOTER ─── */
+    footer { background: #070f1e; }
+    .footer-main { max-width: 1200px; margin: 0 auto; padding: 56px 24px 40px; display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px; }
+    .footer-brand-text .fbt-main { font-family: 'Playfair Display', serif; font-size: 1.05rem; color: var(--white); font-weight: 700; }
+    .footer-brand-text .fbt-sub { font-size: 0.65rem; color: var(--gold-light); letter-spacing: 0.12em; text-transform: uppercase; }
+    .footer-brand p { font-size: 0.88rem; line-height: 1.75; color: rgba(255,255,255,0.5); margin: 16px 0 20px; }
+    .footer-social { display: flex; gap: 10px; }
+    .fsoc { width: 38px; height: 38px; border-radius: 10px; background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.7); text-decoration: none; font-size: 0.9rem; transition: all 0.25s; }
+    .fsoc:hover { background: var(--gold); color: var(--navy); border-color: var(--gold); }
+    .footer-col h4 { font-family: 'Playfair Display', serif; font-size: 0.95rem; color: var(--white); margin-bottom: 20px; position: relative; padding-bottom: 12px; }
+    .footer-col h4::after { content: ''; position: absolute; bottom: 0; left: 0; width: 28px; height: 2px; background: var(--gold); border-radius: 2px; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .footer-col ul a { font-size: 0.88rem; color: rgba(255,255,255,0.5); text-decoration: none; transition: color 0.2s; display: flex; align-items: center; gap: 6px; }
+    .footer-col ul a:hover { color: var(--gold-light); }
+    .footer-col ul a::before { content: '›'; color: var(--gold); font-size: 1rem; }
+    .fci-item { display: flex; align-items: center; gap: 10px; font-size: 0.85rem; color: rgba(255,255,255,0.5); margin-bottom: 12px; }
+    .fci-icon { width: 32px; height: 32px; background: rgba(184,144,46,0.12); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 0.85rem; flex-shrink: 0; color: var(--gold-light); }
+
+    /* ─── WA FLOAT ─── */
+    .wa-float { position: fixed; bottom: 28px; right: 28px; z-index: 9999; }
+    .wa-btn { width: 60px; height: 60px; border-radius: 50%; background: #25d366; display: flex; align-items: center; justify-content: center; text-decoration: none; box-shadow: 0 0 0 0 rgba(37,211,102,0.6), 0 6px 24px rgba(37,211,102,0.4); animation: waGlow 2.5s ease-in-out infinite; transition: transform 0.25s; }
+    .wa-btn:hover { transform: scale(1.12); }
+    .wa-btn svg { width: 30px; height: 30px; fill: white; }
+    @keyframes waGlow { 0%,100%{box-shadow:0 0 0 0 rgba(37,211,102,0.6),0 6px 24px rgba(37,211,102,0.4)}50%{box-shadow:0 0 0 14px rgba(37,211,102,0),0 6px 24px rgba(37,211,102,0.4)} }
+    .wa-tooltip { position: absolute; bottom: 70px; right: 0; background: var(--navy); color: var(--white); font-size: 0.78rem; font-weight: 600; padding: 6px 12px; border-radius: 8px; white-space: nowrap; opacity: 0; transform: translateY(6px); transition: all 0.25s; pointer-events: none; border: 1px solid rgba(184,144,46,0.3); }
+    .wa-float:hover .wa-tooltip { opacity: 1; transform: translateY(0); }
+
+    /* ─── ANIMATIONS ─── */
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+
+    /* ─── RESPONSIVE ─── */
+    @media (max-width: 1024px) {
+      .hero-inner { grid-template-columns: 1fr; }
+      .hero-left { padding: 56px 0 40px; }
+      .hero-right { border-left: none; border-top: 1px solid rgba(184,144,46,0.12); padding: 40px 0 48px; display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
+      .contact-inner { grid-template-columns: 1fr; gap: 40px; }
+      .digital-banner-inner { grid-template-columns: 1fr; gap: 32px; }
+      .footer-main { grid-template-columns: 1fr 1fr; gap: 32px; }
+    }
+    @media (max-width: 768px) {
+      .header-top { display: none; }
+      .nav-links { display: none; }
+      .hamburger { display: flex; }
+      .hero-right { grid-template-columns: 1fr; }
+      .form-row { grid-template-columns: 1fr; }
+      .footer-main { grid-template-columns: 1fr; gap: 28px; }
+      .hours-grid { grid-template-columns: 1fr; }
+      .ps-methods { gap: 8px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ─── HEADER ─── -->
+<header>
+  <div class="header-top">
+    <div class="header-top-inner">
+      <span>📍 ডিজিটাল সার্ভিস | সারা বিশ্বে সেবা প্রদান</span>
+      <div class="ht-right">
+        <a href="mailto:info@visaverificationcenter.com">📧 info@visaverificationcenter.com</a>
+        <a href="https://wa.me/8801943160122">📱 01943-160122</a>
+      </div>
+    </div>
+  </div>
+  <nav>
+    <a href="index.html" class="logo-wrap">
+      <div class="logo-text">
+        <span class="lt-main">Visa Verification Center</span>
+        <span class="lt-sub">Global Trust, Local Assurance</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">হোম</a></li>
+      <li><a href="services.html">সার্ভিস</a></li>
+      <li><a href="about.html">আমাদের সম্পর্কে</a></li>
+      <li><a href="contact.html" class="active">যোগাযোগ</a></li>
+      <li><a href="https://wa.me/8801943160122" class="nav-cta">ভেরিফাই করুন ✓</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMobileNav()"><span></span><span></span><span></span></div>
+  </nav>
+</header>
+
+<!-- ─── MOBILE NAV ─── -->
+<div class="mobile-nav" id="mobileNav">
+  <button class="mobile-nav-close" onclick="toggleMobileNav()">✕</button>
+  <a href="index.html" onclick="toggleMobileNav()">হোম</a>
+  <a href="services.html" onclick="toggleMobileNav()">সার্ভিস</a>
+  <a href="about.html" onclick="toggleMobileNav()">আমাদের সম্পর্কে</a>
+  <a href="contact.html" onclick="toggleMobileNav()">যোগাযোগ</a>
+  <a href="https://wa.me/8801943160122" style="color:#25d366;" onclick="toggleMobileNav()">WhatsApp</a>
+</div>
+
+<!-- ═══════════════════════════════
+     HERO
+════════════════════════════════ -->
+<section class="page-hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-inner">
+
+    <div class="hero-left">
+      <div class="page-tag">আমাদের সাথে কথা বলুন</div>
+      <h1 class="hero-title">আপনার <em>ভিসা</em> নিরাপদ<br/>রাখতে এখনই<br/>যোগাযোগ করুন</h1>
+      <p class="hero-desc">
+        মাত্র একটি মেসেজেই শুরু করুন। আমাদের বিশেষজ্ঞ দল সর্বদা আপনার পাশে আছে — আপনার ডকুমেন্ট যাচাই করতে এবং প্রতারণা থেকে রক্ষা করতে।
+      </p>
+      <div class="hero-quick-btns">
+        <a href="https://wa.me/8801943160122" class="hqb hqb-wa" target="_blank">
+          <div class="hqb-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="#25d366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          </div>
+          <div class="hqb-text">
+            <div class="hqb-label">সবচেয়ে দ্রুত পদ্ধতি</div>
+            <div class="hqb-value">WhatsApp: +880 1943-160122</div>
+          </div>
+          <div class="hqb-arrow">›</div>
+        </a>
+        <a href="mailto:info@visaverificationcenter.com" class="hqb hqb-email">
+          <div class="hqb-icon">📧</div>
+          <div class="hqb-text">
+            <div class="hqb-label">ইমেইলে যোগাযোগ</div>
+            <div class="hqb-value">info@visaverificationcenter.com</div>
+          </div>
+          <div class="hqb-arrow" style="color:rgba(255,255,255,0.3);">›</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="info-card">
+        <div class="ic-icon">🌐</div>
+        <div class="ic-body">
+          <div class="ic-label">সার্ভিসের ধরন</div>
+          <div class="ic-value">সম্পূর্ণ ডিজিটাল সার্ভিস</div>
+          <div class="ic-note">বিশ্বের যেকোনো প্রান্ত থেকে সেবা গ্রহণ করুন</div>
+        </div>
+      </div>
+      <div class="info-card">
+        <div class="ic-icon">⏱️</div>
+        <div class="ic-body">
+          <div class="ic-label">রেসপন্স টাইম</div>
+          <div class="ic-value">সাধারণত ১–৩ ঘণ্টার মধ্যে</div>
+          <div class="ic-note">অফিস আওয়ারে WhatsApp এ তাৎক্ষণিক উত্তর</div>
+        </div>
+      </div>
+      <div class="info-card">
+        <div class="ic-icon">🕐</div>
+        <div class="ic-body">
+          <div class="ic-label">সার্ভিস আওয়ার</div>
+          <div class="ic-value">শনি – বৃহস্পতি</div>
+          <div class="ic-note">সকাল ৯:০০ টা — রাত ৯:০০ টা (BST)</div>
+        </div>
+      </div>
+      <div class="info-card">
+        <div class="ic-icon">📧</div>
+        <div class="ic-body">
+          <div class="ic-label">ইমেইল</div>
+          <div class="ic-value" style="font-size:0.85rem;">info@visaverificationcenter.com</div>
+          <div class="ic-note">ডকুমেন্ট ও বিস্তারিত প্রশ্নের জন্য</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════
+     WHATSAPP CTA STRIP
+════════════════════════════════ -->
+<div class="wa-strip">
+  <div class="wa-strip-inner">
+    <div class="wa-strip-text">
+      <h3>📱 সবচেয়ে সহজ — সরাসরি WhatsApp করুন</h3>
+      <p>ডকুমেন্ট পাঠান, প্যাকেজ বেছে নিন এবং ২৪ ঘণ্টার মধ্যে রিপোর্ট পান।</p>
+    </div>
+    <a href="https://wa.me/8801943160122" class="wa-big-btn" target="_blank">
+      <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+      এখনই WhatsApp করুন
+    </a>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════
+     MAIN CONTACT SECTION
+════════════════════════════════ -->
+<section class="contact-main">
+  <div class="contact-inner">
+
+    <!-- FORM -->
+    <div class="form-wrap reveal">
+      <span class="section-tag">অনুসন্ধান ফর্ম</span>
+      <h2 class="section-title">বার্তা পাঠান</h2>
+      <span class="gold-line"></span>
+
+      <div id="contactForm">
+        <form class="contact-form" onsubmit="handleSubmit(event)">
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">আপনার নাম <span>*</span></label>
+              <input type="text" class="form-input" placeholder="আপনার পুরো নাম লিখুন" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label">মোবাইল নম্বর <span>*</span></label>
+              <input type="tel" class="form-input" placeholder="০১XXXXXXXXX" required />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">ইমেইল ঠিকানা <span>*</span></label>
+            <input type="email" class="form-input" placeholder="your@email.com" required />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">কোন সার্ভিসে আগ্রহী?</label>
+            <div class="service-chips">
+              <div class="chip" onclick="toggleChip(this)"><div class="chip-dot"></div> বেসিক ভেরিফিকেশন</div>
+              <div class="chip" onclick="toggleChip(this)"><div class="chip-dot"></div> স্ট্যান্ডার্ড প্যাকেজ</div>
+              <div class="chip" onclick="toggleChip(this)"><div class="chip-dot"></div> প্রিমিয়াম রিপোর্ট</div>
+              <div class="chip" onclick="toggleChip(this)"><div class="chip-dot"></div> কনসালটেশন</div>
+              <div class="chip" onclick="toggleChip(this)"><div class="chip-dot"></div> জরুরি সার্ভিস</div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">গন্তব্য দেশ</label>
+            <select class="form-select">
+              <option value="">দেশ বেছে নিন</option>
+              <option>অস্ট্রেলিয়া</option>
+              <option>দুবাই / UAE</option>
+              <option>মালয়েশিয়া</option>
+              <option>সৌদি আরব</option>
+              <option>কাতার</option>
+              <option>সিঙ্গাপুর</option>
+              <option>ইউরোপ</option>
+              <option>যুক্তরাজ্য</option>
+              <option>যুক্তরাষ্ট্র / কানাডা</option>
+              <option>লাওস</option>
+              <option>অন্যান্য</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">আপনার বার্তা <span>*</span></label>
+            <textarea class="form-textarea" id="msgArea" placeholder="আপনার প্রশ্ন বা প্রয়োজনীয়তা বিস্তারিত লিখুন..." required oninput="updateCount()"></textarea>
+            <div class="char-count"><span id="charCount">0</span> / 500</div>
+          </div>
+
+          <div class="form-note">
+            <span>ℹ️</span>
+            <span>এই ফর্মটি WhatsApp এ রিডাইরেক্ট করবে। আপনার তথ্য সম্পূর্ণ নিরাপদ — আমরা কখনো তৃতীয় পক্ষের সাথে শেয়ার করি না।</span>
+          </div>
+
+          <button type="submit" class="submit-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+            WhatsApp এ পাঠান
+          </button>
+        </form>
+      </div>
+
+      <!-- Success message -->
+      <div class="form-success" id="formSuccess">
+        <div class="fs-icon">✅</div>
+        <div class="fs-title">WhatsApp এ রিডাইরেক্ট হচ্ছে!</div>
+        <div class="fs-desc">আপনার বার্তা তৈরি হয়ে গেছে। WhatsApp খুলে সেন্ড করুন এবং আমাদের টিম শীঘ্রই আপনার সাথে যোগাযোগ করবে।</div>
+        <a href="https://wa.me/8801943160122" target="_blank" style="display:inline-flex;align-items:center;gap:10px;background:#25d366;color:white;padding:14px 28px;border-radius:12px;text-decoration:none;font-weight:700;font-size:0.95rem;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          WhatsApp খুলুন
+        </a>
+      </div>
+    </div>
+
+    <!-- INFO SIDE -->
+    <div class="info-side reveal">
+
+      <a href="https://wa.me/8801943160122" class="contact-card" target="_blank">
+        <div class="cc-head">
+          <div class="cc-icon cc-icon-wa">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="#25d366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          </div>
+          <div>
+            <div class="cc-title">WhatsApp</div>
+            <div class="cc-sub">সবচেয়ে দ্রুত পদ্ধতি</div>
+          </div>
+        </div>
+        <div class="cc-value">+880 1943-160122</div>
+        <div class="cc-desc">ডকুমেন্ট সরাসরি পাঠান, প্যাকেজ সম্পর্কে জানুন এবং দ্রুত রিপোর্ট পান।</div>
+        <div class="cc-badge"><div class="cc-badge-dot"></div> সক্রিয় — এখন মেসেজ করুন</div>
+      </a>
+
+      <a href="mailto:info@visaverificationcenter.com" class="contact-card">
+        <div class="cc-head">
+          <div class="cc-icon cc-icon-email">📧</div>
+          <div>
+            <div class="cc-title">ইমেইল</div>
+            <div class="cc-sub">বিস্তারিত প্রশ্নের জন্য</div>
+          </div>
+        </div>
+        <div class="cc-value" style="font-size:0.9rem;">info@visaverificationcenter.com</div>
+        <div class="cc-desc">বড় ডকুমেন্ট বা বিস্তারিত অনুসন্ধানের জন্য ইমেইল পাঠান। সাধারণত ১ কার্যদিবসের মধ্যে উত্তর পাবেন।</div>
+      </a>
+
+      <div class="contact-card" style="cursor:default;">
+        <div class="cc-head">
+          <div class="cc-icon cc-icon-time">🕐</div>
+          <div>
+            <div class="cc-title">সার্ভিস আওয়ার</div>
+            <div class="cc-sub">বাংলাদেশ সময় (BST)</div>
+          </div>
+        </div>
+        <div class="hours-grid">
+          <div class="hour-item">
+            <div class="hi-day">শনি – বৃহস্পতি</div>
+            <div class="hi-time">৯:০০ – ২১:০০</div>
+          </div>
+          <div class="hour-item">
+            <div class="hi-day">শুক্রবার</div>
+            <div class="hi-time" style="color:var(--text-light); font-size:0.82rem;">সীমিত সময়</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="payment-strip">
+        <div class="ps-title">🏦 অফিশিয়াল পেমেন্ট পদ্ধতি</div>
+        <div class="ps-methods">
+          <div class="pm"><span>🏦</span>ব্যাংক</div>
+          <div class="pm"><span>📱</span>bKash</div>
+          <div class="pm"><span>💳</span>Nagad</div>
+          <div class="pm"><span>🚀</span>Rocket</div>
+        </div>
+        <div class="ps-warning">
+          <span>⚠️</span>
+          <span>শুধুমাত্র অফিশিয়াল মার্চেন্ট একাউন্টে পেমেন্ট করুন। কোনো ব্যক্তিগত একাউন্টে পেমেন্ট করবেন না।</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════
+     HOW TO CONTACT — STEPS
+════════════════════════════════ -->
+<div class="digital-banner">
+  <div class="digital-banner-inner">
+    <div class="db-left reveal">
+      <h2>কীভাবে সার্ভিস নেবেন?</h2>
+      <p>সম্পূর্ণ ডিজিটাল প্রক্রিয়া — ঘরে বসেই ভেরিফিকেশন করুন। কোনো অফিসে আসার দরকার নেই।</p>
+    </div>
+    <div class="db-right reveal">
+      <div class="db-step">
+        <div class="dbs-num">১</div>
+        <div class="dbs-text">WhatsApp করুন বা ইমেইল পাঠান এবং প্যাকেজ বেছে নিন।</div>
+      </div>
+      <div class="db-step">
+        <div class="dbs-num">২</div>
+        <div class="dbs-text">ডকুমেন্টের স্ক্যান বা ছবি WhatsApp / ইমেইলে পাঠান।</div>
+      </div>
+      <div class="db-step">
+        <div class="dbs-num">৩</div>
+        <div class="dbs-text">অফিশিয়াল পেমেন্ট চ্যানেলে ফি পরিশোধ করুন।</div>
+      </div>
+      <div class="db-step">
+        <div class="dbs-num">৪</div>
+        <div class="dbs-text">নির্ধারিত সময়ের মধ্যে সম্পূর্ণ ভেরিফিকেশন রিপোর্ট পান।</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════
+     FAQ
+════════════════════════════════ -->
+<section class="faq-section">
+  <div class="faq-inner">
+    <div class="reveal" style="text-align:center; margin-bottom:40px;">
+      <span class="section-tag" style="justify-content:center;">সাধারণ জিজ্ঞাসা</span>
+      <h2 class="section-title" style="text-align:center;">যোগাযোগ সম্পর্কিত প্রশ্ন</h2>
+      <span class="gold-line" style="margin:14px auto 0; display:block; width:60px;"></span>
+    </div>
+    <div class="faq-grid">
+      <div class="faq-item reveal">
+        <div class="faq-question" onclick="toggleFAQ(this)">
+          <span>ডকুমেন্ট কীভাবে জমা দেব?</span>
+          <div class="faq-toggle">+</div>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">ইমেইল info@visaverificationcenter.com বা WhatsApp 01943-160122 এর মাধ্যমে ডিজিটালি ডকুমেন্ট জমা দেওয়া যাবে। VVC সম্পূর্ণ ডিজিটাল সার্ভিস প্রদান করে, তাই সরাসরি কোনো অফিসে আসার প্রয়োজন নেই।</div>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-question" onclick="toggleFAQ(this)">
+          <span>কত তাড়াতাড়ি উত্তর পাব?</span>
+          <div class="faq-toggle">+</div>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">অফিস আওয়ারে (সকাল ৯টা – রাত ৯টা) WhatsApp এ সাধারণত ১–৩ ঘণ্টার মধ্যে উত্তর পাবেন। ইমেইলে সাধারণত ১ কার্যদিবসের মধ্যে উত্তর দেওয়া হয়।</div>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-question" onclick="toggleFAQ(this)">
+          <span>বাংলাদেশের বাইরে থেকে যোগাযোগ করা যাবে?</span>
+          <div class="faq-toggle">+</div>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">হ্যাঁ। VVC-এর সকল সেবা সম্পূর্ণ ডিজিটাল এবং বিশ্বের যেকোনো প্রান্ত থেকে WhatsApp বা ইমেইলের মাধ্যমে যোগাযোগ করা যাবে।</div>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-question" onclick="toggleFAQ(this)">
+          <span>অ্যাপ্লিকেশন স্ট্যাটাস কীভাবে ট্র্যাক করব?</span>
+          <div class="faq-toggle">+</div>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">আপনার আবেদনের স্ট্যাটাস জানতে WhatsApp বা ইমেইলে যোগাযোগ করুন। আপনার আবেদন নম্বর বা নাম উল্লেখ করলে দ্রুত তথ্য পাবেন।</div>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-question" onclick="toggleFAQ(this)">
+          <span>কোন ডকুমেন্ট পাঠাতে হবে?</span>
+          <div class="faq-toggle">+</div>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">প্রয়োজনীয় ডকুমেন্ট ভেরিফিকেশনের ধরনের উপর নির্ভর করে। প্রথম যোগাযোগের পরে আমাদের টিম আপনাকে সঠিক তালিকা জানিয়ে দেবে।</div>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-question" onclick="toggleFAQ(this)">
+          <span>জরুরি ভেরিফিকেশন কি সম্ভব?</span>
+          <div class="faq-toggle">+</div>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">হ্যাঁ। কেসের উপর নির্ভর করে এক্সপ্রেস সার্ভিস পাওয়া যেতে পারে। তবে অতিরিক্ত চার্জ প্রযোজ্য। বিস্তারিত জানতে WhatsApp এ যোগাযোগ করুন।</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── FOOTER ─── -->
+<footer>
+  <div class="footer-main">
+    <div class="footer-brand">
+      <div class="footer-brand-text" style="margin-bottom:16px;">
+        <div class="fbt-main">Visa Verification Center</div>
+        <div class="fbt-sub">Global Trust, Local Assurance</div>
+      </div>
+      <p>বাংলাদেশের বিশ্বস্ত ডকুমেন্ট ভেরিফিকেশন সংস্থা। জাল ভিসা ও প্রতারণা থেকে সাধারণ মানুষকে রক্ষা করাই আমাদের লক্ষ্য।</p>
+      <div class="footer-social">
+        <a href="https://wa.me/8801943160122" class="fsoc">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+        </a>
+        <a href="mailto:info@visaverificationcenter.com" class="fsoc">📧</a>
+        <a href="#" class="fsoc">f</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>পেজসমূহ</h4>
+      <ul>
+        <li><a href="index.html">হোম</a></li>
+        <li><a href="services.html">সার্ভিস</a></li>
+        <li><a href="about.html">আমাদের সম্পর্কে</a></li>
+        <li><a href="contact.html">যোগাযোগ</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>সার্ভিস</h4>
+      <ul>
+        <li><a href="services.html#basic">বেসিক — ৳১,০০০</a></li>
+        <li><a href="services.html#standard">স্ট্যান্ডার্ড — ৳২,০০০</a></li>
+        <li><a href="services.html#premium">প্রিমিয়াম — ৳১০,০০০</a></li>
+        <li><a href="services.html#consultation">কনসালটেশন</a></li>
+        <li><a href="terms.html">শর্তাবলী</a></li>
+        <li><a href="terms.html">রিফান্ড পলিসি</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>যোগাযোগ</h4>
+      <div>
+        <div class="fci-item"><div class="fci-icon">📱</div><a href="https://wa.me/8801943160122" style="color:rgba(255,255,255,0.5);text-decoration:none;">01943-160122</a></div>
+        <div class="fci-item"><div class="fci-icon">📧</div><a href="mailto:info@visaverificationcenter.com" style="color:rgba(255,255,255,0.5);text-decoration:none;font-size:0.78rem;">info@visaverificationcenter.com</a></div>
+        <div class="fci-item"><div class="fci-icon">🌐</div><span>সম্পূর্ণ ডিজিটাল সার্ভিস</span></div>
+        <div class="fci-item"><div class="fci-icon">🕐</div><span>শনি–বৃহস্পতি, ৯টা–৯টা</span></div>
+      </div>
+    </div>
+  </div>
+  <div style="max-width:1200px;margin:0 auto;padding:0 24px;">
+    <div style="border-top:1px solid rgba(184,144,46,0.12);padding:20px 0;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;">
+      <p style="font-size:0.82rem;color:rgba(255,255,255,0.3);">© ২০২৬ Visa Verification Center. সকল স্বত্ব সংরক্ষিত।</p>
+      <div style="display:flex;gap:20px;">
+        <a href="terms.html" style="font-size:0.82rem;color:rgba(255,255,255,0.4);text-decoration:none;">শর্তাবলী</a>
+        <a href="terms.html" style="font-size:0.82rem;color:rgba(255,255,255,0.4);text-decoration:none;">রিফান্ড পলিসি</a>
+        <a href="terms.html" style="font-size:0.82rem;color:rgba(255,255,255,0.4);text-decoration:none;">প্রাইভেসি পলিসি</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ─── WA FLOAT ─── -->
+<div class="wa-float">
+  <div class="wa-tooltip">WhatsApp এ চ্যাট করুন</div>
+  <a href="https://wa.me/8801943160122" class="wa-btn" target="_blank" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+  </a>
+</div>
+
+<script>
+  function toggleMobileNav() {
+    document.getElementById('mobileNav').classList.toggle('open');
+  }
+
+  function toggleChip(el) {
+    el.classList.toggle('selected');
+  }
+
+  function updateCount() {
+    const area = document.getElementById('msgArea');
+    document.getElementById('charCount').textContent = area.value.length;
+  }
+
+  function toggleFAQ(el) {
+    const item = el.closest('.faq-item');
+    document.querySelectorAll('.faq-item').forEach(i => { if (i !== item) i.classList.remove('open'); });
+    item.classList.toggle('open');
+  }
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    const form = e.target;
+    const name = form.querySelector('input[type="text"]').value;
+    const phone = form.querySelector('input[type="tel"]').value;
+    const email = form.querySelector('input[type="email"]').value;
+    const country = form.querySelector('select').value;
+    const message = form.querySelector('textarea').value;
+    const chips = [...form.querySelectorAll('.chip.selected')].map(c => c.textContent.trim()).join(', ');
+
+    let text = `ভিসা ভেরিফিকেশন সেন্টারে আবেদন\n\n`;
+    text += `নাম: ${name}\n`;
+    text += `মোবাইল: ${phone}\n`;
+    text += `ইমেইল: ${email}\n`;
+    if (chips) text += `সার্ভিস: ${chips}\n`;
+    if (country) text += `দেশ: ${country}\n`;
+    text += `\nবার্তা: ${message}`;
+
+    const waUrl = `https://wa.me/8801943160122?text=${encodeURIComponent(text)}`;
+
+    document.getElementById('contactForm').style.display = 'none';
+    document.getElementById('formSuccess').style.display = 'block';
+
+    setTimeout(() => { window.open(waUrl, '_blank'); }, 600);
+  }
+
+  // Scroll reveal
+  const reveals = document.querySelectorAll('.reveal');
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const siblings = Array.from(entry.target.parentElement?.children || []);
+        const delay = siblings.indexOf(entry.target) * 100;
+        setTimeout(() => entry.target.classList.add('visible'), Math.min(delay, 300));
+        obs.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+  reveals.forEach(el => obs.observe(el));
+
+  window.addEventListener('scroll', () => {
+    document.querySelector('header').style.boxShadow = window.scrollY > 60 ? '0 4px 32px rgba(13,31,60,0.4)' : 'none';
+  });
+</script>
+</body>
+</html>

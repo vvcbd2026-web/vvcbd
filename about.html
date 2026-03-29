@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>আমাদের সম্পর্কে | Visa Verification Center Bangladesh</title>
+  <meta name="description" content="ভিসা ভেরিফিকেশন সেন্টার সম্পর্কে জানুন — আমাদের মিশন, ভিশন এবং কেন আমরা বাংলাদেশের সবচেয়ে বিশ্বস্ত ভেরিফিকেশন সংস্থা।" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Hind+Siliguri:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --navy: #0d1f3c;
+      --navy-mid: #1a3560;
+      --navy-light: #243d6e;
+      --gold: #b8902e;
+      --gold-light: #d4a843;
+      --gold-pale: #f0d483;
+      --white: #ffffff;
+      --cream: #faf8f3;
+      --off-white: #f5f3ee;
+      --text-dark: #0d1f3c;
+      --text-mid: #2c3e6b;
+      --text-light: #6b7a99;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Hind Siliguri', sans-serif; background: var(--cream); color: var(--text-dark); overflow-x: hidden; }
+
+    /* ─── HEADER ─── */
+    header {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      background: rgba(13,31,60,0.97); backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(184,144,46,0.3);
+    }
+    .header-top {
+      background: linear-gradient(90deg, var(--navy), var(--navy-mid));
+      padding: 6px 0; border-bottom: 1px solid rgba(184,144,46,0.12);
+    }
+    .header-top-inner {
+      max-width: 1200px; margin: 0 auto; padding: 0 24px;
+      display: flex; align-items: center; justify-content: space-between;
+      font-size: 0.78rem; color: rgba(255,255,255,0.65);
+    }
+    .header-top-inner a { color: var(--gold-light); text-decoration: none; }
+    .header-top-inner .ht-right { display: flex; gap: 20px; align-items: center; }
+    nav {
+      max-width: 1200px; margin: 0 auto; padding: 0 24px;
+      display: flex; align-items: center; justify-content: space-between; height: 72px;
+    }
+    .logo-wrap { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+    .logo-img { height: 52px; width: auto; filter: drop-shadow(0 2px 8px rgba(184,144,46,0.3)); }
+    .logo-text { display: flex; flex-direction: column; }
+    .logo-text .lt-main { font-family: 'Playfair Display', serif; font-size: 1.15rem; color: var(--white); font-weight: 700; line-height: 1.1; }
+    .logo-text .lt-sub { font-size: 0.65rem; color: var(--gold-light); letter-spacing: 0.12em; text-transform: uppercase; }
+    .nav-links { display: flex; align-items: center; gap: 2px; list-style: none; }
+    .nav-links a {
+      display: block; padding: 8px 16px; color: rgba(255,255,255,0.85); text-decoration: none;
+      font-size: 0.9rem; font-weight: 500; border-radius: 6px; transition: all 0.25s; position: relative;
+    }
+    .nav-links a.active { color: var(--gold-light); }
+    .nav-links a::after { content: ''; position: absolute; bottom: 4px; left: 50%; right: 50%; height: 2px; background: var(--gold-light); transition: all 0.25s; border-radius: 2px; }
+    .nav-links a:hover::after, .nav-links a.active::after { left: 16px; right: 16px; }
+    .nav-cta { background: linear-gradient(135deg, var(--gold), var(--gold-light)) !important; color: var(--navy) !important; font-weight: 700 !important; border-radius: 8px !important; padding: 10px 20px !important; box-shadow: 0 4px 16px rgba(184,144,46,0.3); }
+    .nav-cta::after { display: none !important; }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 4px; }
+    .hamburger span { display: block; width: 26px; height: 2px; background: var(--white); border-radius: 2px; transition: all 0.3s; }
+    .mobile-nav { display: none; position: fixed; inset: 0; background: rgba(13,31,60,0.98); z-index: 999; flex-direction: column; align-items: center; justify-content: center; gap: 12px; }
+    .mobile-nav.open { display: flex; }
+    .mobile-nav a { color: var(--white); text-decoration: none; font-size: 1.4rem; font-weight: 600; padding: 12px 40px; border-bottom: 1px solid rgba(184,144,46,0.2); width: 80%; text-align: center; transition: color 0.2s; }
+    .mobile-nav a:hover { color: var(--gold-light); }
+    .mobile-nav-close { position: absolute; top: 20px; right: 24px; color: var(--white); font-size: 2rem; cursor: pointer; background: none; border: none; }
+
+    /* ═══════════════════════════
+       LOGO HERO — CENTERPIECE
+    ═══════════════════════════ */
+    .logo-hero {
+      min-height: 100vh;
+      background: linear-gradient(145deg, #060e1c 0%, #0d1f3c 40%, #162d5c 75%, #1e3a7a 100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+      padding: 120px 24px 80px;
+    }
+
+    /* Radial glow behind logo */
+    .logo-glow {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      width: 700px; height: 700px;
+      background: radial-gradient(circle, rgba(184,144,46,0.12) 0%, rgba(184,144,46,0.04) 40%, transparent 70%);
+      border-radius: 50%;
+      animation: breathe 4s ease-in-out infinite;
+    }
+    @keyframes breathe {
+      0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.8; }
+      50% { transform: translate(-50%, -50%) scale(1.1); opacity: 1; }
+    }
+
+    /* Rotating ring 1 */
+    .ring {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+      border: 1px solid rgba(184,144,46,0.12);
+    }
+    .ring-1 { width: 500px; height: 500px; animation: spin 40s linear infinite; }
+    .ring-2 { width: 680px; height: 680px; border-color: rgba(184,144,46,0.07); animation: spin 60s linear infinite reverse; }
+    .ring-3 { width: 860px; height: 860px; border-color: rgba(184,144,46,0.04); animation: spin 80s linear infinite; }
+
+    /* Dots on ring 1 */
+    .ring-1::before, .ring-1::after {
+      content: '';
+      position: absolute;
+      width: 6px; height: 6px;
+      background: var(--gold);
+      border-radius: 50%;
+      box-shadow: 0 0 8px var(--gold);
+    }
+    .ring-1::before { top: -3px; left: 50%; transform: translateX(-50%); }
+    .ring-1::after { bottom: -3px; left: 50%; transform: translateX(-50%); }
+
+    @keyframes spin { from { transform: translate(-50%, -50%) rotate(0deg); } to { transform: translate(-50%, -50%) rotate(360deg); } }
+
+    /* Grid background */
+    .hero-grid-bg {
+      position: absolute; inset: 0;
+      background-image:
+        linear-gradient(rgba(184,144,46,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(184,144,46,0.04) 1px, transparent 1px);
+      background-size: 60px 60px;
+      mask-image: radial-gradient(ellipse at center, rgba(0,0,0,0.5) 0%, transparent 70%);
+    }
+
+    /* Corner decorations */
+    .corner-deco {
+      position: absolute;
+      width: 120px; height: 120px;
+      opacity: 0.3;
+    }
+    .corner-deco::before, .corner-deco::after { content: ''; position: absolute; background: var(--gold); border-radius: 2px; }
+    .corner-tl { top: 100px; left: 40px; }
+    .corner-tl::before { top: 0; left: 0; width: 40px; height: 2px; }
+    .corner-tl::after { top: 0; left: 0; width: 2px; height: 40px; }
+    .corner-tr { top: 100px; right: 40px; }
+    .corner-tr::before { top: 0; right: 0; width: 40px; height: 2px; }
+    .corner-tr::after { top: 0; right: 0; width: 2px; height: 40px; }
+    .corner-bl { bottom: 40px; left: 40px; }
+    .corner-bl::before { bottom: 0; left: 0; width: 40px; height: 2px; }
+    .corner-bl::after { bottom: 0; left: 0; width: 2px; height: 40px; }
+    .corner-br { bottom: 40px; right: 40px; }
+    .corner-br::before { bottom: 0; right: 0; width: 40px; height: 2px; }
+    .corner-br::after { bottom: 0; right: 0; width: 2px; height: 40px; }
+
+    /* THE LOGO SHOWCASE */
+    .logo-showcase {
+      position: relative;
+      z-index: 10;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .logo-frame {
+      position: relative;
+      display: flex; align-items: center; justify-content: center;
+      margin-bottom: 44px;
+      padding: 32px 48px;
+    }
+    /* Top & bottom gold lines */
+    .logo-frame::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 50%; transform: translateX(-50%);
+      width: 120px; height: 2px;
+      background: linear-gradient(90deg, transparent, var(--gold-light), transparent);
+    }
+    .logo-frame::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 50%; transform: translateX(-50%);
+      width: 120px; height: 2px;
+      background: linear-gradient(90deg, transparent, var(--gold-light), transparent);
+    }
+
+    /* Corner accents on logo frame */
+    .logo-frame-corners {
+      position: absolute; inset: 0; pointer-events: none;
+    }
+    .logo-frame-corners::before,
+    .logo-frame-corners::after {
+      content: '';
+      position: absolute;
+      width: 20px; height: 20px;
+    }
+    .logo-frame-corners::before {
+      top: 0; left: 0;
+      border-top: 2px solid var(--gold);
+      border-left: 2px solid var(--gold);
+    }
+    .logo-frame-corners::after {
+      bottom: 0; right: 0;
+      border-bottom: 2px solid var(--gold);
+      border-right: 2px solid var(--gold);
+    }
+    .logo-frame-corners-2::before {
+      top: 0; right: 0;
+      border-top: 2px solid var(--gold);
+      border-right: 2px solid var(--gold);
+    }
+    .logo-frame-corners-2::after {
+      bottom: 0; left: 0;
+      border-bottom: 2px solid var(--gold);
+      border-left: 2px solid var(--gold);
+    }
+
+    .logo-img-main {
+      position: relative;
+      z-index: 2;
+      width: clamp(240px, 35vw, 400px);
+      height: auto;
+      object-fit: contain;
+      filter:
+        drop-shadow(0 0 40px rgba(184,144,46,0.45))
+        drop-shadow(0 0 12px rgba(184,144,46,0.25))
+        drop-shadow(0 4px 24px rgba(0,0,0,0.5));
+      animation: logoFloat 5s ease-in-out infinite;
+    }
+    @keyframes logoFloat {
+      0%, 100% {
+        transform: translateY(0px);
+        filter: drop-shadow(0 0 40px rgba(184,144,46,0.45)) drop-shadow(0 0 12px rgba(184,144,46,0.25)) drop-shadow(0 4px 24px rgba(0,0,0,0.5));
+      }
+      50% {
+        transform: translateY(-10px);
+        filter: drop-shadow(0 12px 48px rgba(184,144,46,0.65)) drop-shadow(0 0 20px rgba(184,144,46,0.35)) drop-shadow(0 8px 32px rgba(0,0,0,0.4));
+      }
+    }
+
+    /* Fallback if no logo image */
+    .logo-fallback {
+      position: relative;
+      z-index: 2;
+      width: 160px; height: 160px;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 8px;
+    }
+    .lf-shield {
+      font-size: 4rem;
+      filter: drop-shadow(0 0 20px rgba(184,144,46,0.6));
+      animation: logoFloat 5s ease-in-out infinite;
+    }
+    .lf-text { font-family: 'Playfair Display', serif; font-size: 1rem; color: var(--gold-light); font-weight: 700; letter-spacing: 0.15em; }
+
+    .logo-brand-name {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      color: var(--white);
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 12px;
+      letter-spacing: -0.01em;
+    }
+    .logo-brand-name em { color: var(--gold-light); font-style: italic; }
+
+    .logo-brand-sub {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1rem;
+      color: rgba(255,255,255,0.5);
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      margin-bottom: 32px;
+    }
+
+    .logo-tagline {
+      font-size: 1.1rem;
+      color: rgba(255,255,255,0.72);
+      line-height: 1.8;
+      max-width: 580px;
+      margin-bottom: 40px;
+    }
+    .logo-tagline strong { color: var(--gold-light); }
+
+    /* Trust badges row */
+    .trust-badges {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 8px;
+    }
+    .tb {
+      display: flex; align-items: center; gap: 8px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(184,144,46,0.25);
+      border-radius: 100px;
+      padding: 8px 20px;
+      font-size: 0.82rem;
+      color: rgba(255,255,255,0.75);
+      font-weight: 500;
+    }
+    .tb-dot { width: 8px; height: 8px; background: var(--gold-light); border-radius: 50%; flex-shrink: 0; }
+
+    /* Scroll cue */
+    .scroll-cue {
+      position: absolute; bottom: 36px; left: 50%; transform: translateX(-50%);
+      display: flex; flex-direction: column; align-items: center; gap: 8px;
+      color: rgba(255,255,255,0.3); font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase;
+      z-index: 10;
+    }
+    .scroll-arrow { width: 20px; height: 20px; border-right: 2px solid rgba(184,144,46,0.4); border-bottom: 2px solid rgba(184,144,46,0.4); transform: rotate(45deg); animation: arrowBounce 1.5s ease-in-out infinite; }
+    @keyframes arrowBounce { 0%, 100% { transform: rotate(45deg) translateY(0); } 50% { transform: rotate(45deg) translateY(5px); } }
+
+    /* ─── SECTION COMMONS ─── */
+    .section { padding: 88px 0; }
+    .section-inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    .section-tag { display: inline-flex; align-items: center; gap: 8px; color: var(--gold); font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 12px; }
+    .section-tag::before { content: ''; display: block; width: 28px; height: 2px; background: var(--gold); border-radius: 2px; }
+    .section-title { font-family: 'Playfair Display', serif; font-size: clamp(1.8rem, 3.5vw, 2.6rem); color: var(--navy); line-height: 1.25; font-weight: 700; margin-bottom: 16px; }
+    .gold-line { display: block; width: 60px; height: 3px; background: linear-gradient(90deg, var(--gold), transparent); margin: 16px 0 40px; border-radius: 2px; }
+    .section-desc { font-size: 1.05rem; color: var(--text-light); line-height: 1.85; }
+
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.65s ease, transform 0.65s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+
+    /* ─── WHO WE ARE ─── */
+    .who-section { background: var(--white); }
+    .who-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: center; }
+    .who-left { }
+    .who-right { }
+
+    .stat-box-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 36px; }
+    .stat-box {
+      background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 100%);
+      border-radius: 16px; padding: 24px 20px; text-align: center;
+      border: 1px solid rgba(184,144,46,0.2);
+    }
+    .sb-num { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 800; color: var(--gold-light); display: block; }
+    .sb-label { font-size: 0.8rem; color: rgba(255,255,255,0.65); margin-top: 4px; }
+
+    .who-image-card {
+      background: linear-gradient(135deg, var(--navy) 0%, #1e3a7a 100%);
+      border-radius: 28px;
+      padding: 48px 40px;
+      position: relative;
+      overflow: hidden;
+      border: 1px solid rgba(184,144,46,0.2);
+      box-shadow: 0 32px 80px rgba(13,31,60,0.25);
+    }
+    .who-image-card::before {
+      content: '"';
+      position: absolute; top: -20px; left: 20px;
+      font-family: 'Playfair Display', serif;
+      font-size: 160px; color: rgba(184,144,46,0.08); line-height: 1;
+    }
+    .wic-logo {
+      width: 80px; height: 80px;
+      object-fit: contain;
+      margin-bottom: 24px;
+      filter: drop-shadow(0 4px 12px rgba(184,144,46,0.4));
+    }
+    .wic-quote {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.35rem;
+      color: var(--white);
+      line-height: 1.7;
+      font-style: italic;
+      margin-bottom: 24px;
+      position: relative; z-index: 2;
+    }
+    .wic-author { font-size: 0.85rem; color: var(--gold-light); font-weight: 600; }
+
+    /* ─── MISSION / VISION ─── */
+    .mv-section { background: var(--cream); }
+    .mv-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; margin-top: 8px; }
+    .mv-card {
+      border-radius: 24px;
+      padding: 44px 40px;
+      position: relative;
+      overflow: hidden;
+    }
+    .mv-card-mission { background: var(--navy); }
+    .mv-card-vision { background: linear-gradient(135deg, #0a1628, #162d5c); }
+    .mv-card::before {
+      content: '';
+      position: absolute; right: -40px; bottom: -40px;
+      width: 200px; height: 200px; border-radius: 50%;
+      background: rgba(184,144,46,0.07);
+    }
+    .mvc-icon { font-size: 2.5rem; margin-bottom: 20px; display: block; }
+    .mvc-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem; color: var(--white); font-weight: 700;
+      margin-bottom: 16px;
+    }
+    .mvc-title span { color: var(--gold-light); }
+    .mvc-text { font-size: 0.95rem; color: rgba(255,255,255,0.72); line-height: 1.85; }
+
+    /* ─── STORY SECTION ─── */
+    .story-section { background: var(--white); }
+    .story-grid { display: grid; grid-template-columns: 1fr 1.1fr; gap: 72px; align-items: start; }
+    .story-left { }
+    .story-right { }
+    .story-block { margin-bottom: 32px; }
+    .story-block h4 { font-family: 'Playfair Display', serif; font-size: 1.15rem; color: var(--navy); font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 10px; }
+    .story-block p { font-size: 0.95rem; color: var(--text-light); line-height: 1.85; }
+
+    .story-highlight {
+      background: linear-gradient(135deg, rgba(184,144,46,0.08) 0%, rgba(184,144,46,0.03) 100%);
+      border: 1px solid rgba(184,144,46,0.22);
+      border-left: 4px solid var(--gold);
+      border-radius: 0 16px 16px 0;
+      padding: 24px 28px;
+      margin-top: 24px;
+    }
+    .story-highlight p { font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; color: var(--navy); line-height: 1.75; font-style: italic; }
+    .story-highlight strong { color: var(--gold); font-style: normal; }
+
+    .what-we-verify-list { display: flex; flex-direction: column; gap: 12px; }
+    .wvl-item {
+      display: flex; align-items: center; gap: 14px;
+      background: var(--cream); border: 1px solid rgba(184,144,46,0.12);
+      border-radius: 12px; padding: 16px 20px;
+      transition: all 0.25s;
+    }
+    .wvl-item:hover { border-color: var(--gold); background: rgba(184,144,46,0.04); transform: translateX(4px); }
+    .wvl-icon { font-size: 1.25rem; width: 40px; text-align: center; flex-shrink: 0; }
+    .wvl-text { font-size: 0.9rem; color: var(--text-mid); font-weight: 500; }
+
+    /* ─── VALUES ─── */
+    .values-section { background: var(--navy); position: relative; overflow: hidden; }
+    .values-section::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(circle at 30% 50%, rgba(184,144,46,0.07) 0%, transparent 55%),
+                  radial-gradient(circle at 70% 30%, rgba(184,144,46,0.05) 0%, transparent 40%);
+    }
+    .values-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+    .value-card {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(184,144,46,0.18);
+      border-radius: 20px; padding: 32px 24px; text-align: center;
+      transition: all 0.3s ease;
+    }
+    .value-card:hover { background: rgba(255,255,255,0.09); border-color: rgba(184,144,46,0.4); transform: translateY(-4px); }
+    .vc-icon { font-size: 2rem; margin-bottom: 16px; display: block; }
+    .vc-title { font-family: 'Playfair Display', serif; font-size: 1.05rem; color: var(--white); font-weight: 700; margin-bottom: 10px; }
+    .vc-desc { font-size: 0.83rem; color: rgba(255,255,255,0.55); line-height: 1.7; }
+
+    /* ─── FAQ STRIP ─── */
+    .faq-strip { background: var(--cream); }
+    .faq-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .faq-item { background: var(--white); border-radius: 14px; border: 1px solid rgba(184,144,46,0.12); overflow: hidden; }
+    .faq-item:hover { border-color: rgba(184,144,46,0.3); }
+    .faq-question { padding: 20px 24px; display: flex; align-items: center; justify-content: space-between; cursor: pointer; gap: 12px; }
+    .faq-question span { font-size: 0.92rem; font-weight: 600; color: var(--navy); line-height: 1.5; }
+    .faq-toggle { width: 28px; height: 28px; border-radius: 50%; background: rgba(184,144,46,0.1); color: var(--gold); display: flex; align-items: center; justify-content: center; font-size: 1.1rem; font-weight: 700; flex-shrink: 0; transition: all 0.25s; }
+    .faq-item.open .faq-toggle { background: var(--gold); color: var(--navy); transform: rotate(45deg); }
+    .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.35s ease; }
+    .faq-item.open .faq-answer { max-height: 300px; }
+    .faq-answer-inner { padding: 0 24px 20px; font-size: 0.88rem; color: var(--text-light); line-height: 1.75; border-top: 1px solid rgba(184,144,46,0.1); padding-top: 16px; }
+
+    /* ─── CONTACT BANNER ─── */
+    .contact-banner { background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 60%, #1e3a7a 100%); padding: 80px 0; position: relative; overflow: hidden; }
+    .contact-banner::before { content: ''; position: absolute; inset: 0; background: radial-gradient(circle at 80% 50%, rgba(184,144,46,0.08) 0%, transparent 50%); }
+    .contact-banner-inner { max-width: 900px; margin: 0 auto; padding: 0 24px; text-align: center; position: relative; z-index: 2; }
+    .contact-banner h2 { font-family: 'Playfair Display', serif; font-size: clamp(1.8rem, 4vw, 2.6rem); color: var(--white); margin-bottom: 16px; }
+    .contact-banner p { font-size: 1rem; color: rgba(255,255,255,0.7); margin-bottom: 36px; line-height: 1.8; }
+    .contact-methods { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+    .cm-card { background: rgba(255,255,255,0.07); border: 1px solid rgba(184,144,46,0.25); border-radius: 14px; padding: 16px 28px; color: var(--white); text-decoration: none; font-size: 0.92rem; font-weight: 600; display: flex; align-items: center; gap: 10px; transition: all 0.3s; }
+    .cm-card:hover { background: rgba(184,144,46,0.15); border-color: var(--gold); transform: translateY(-2px); }
+
+    /* ─── FOOTER ─── */
+    footer { background: #070f1e; color: rgba(255,255,255,0.7); }
+    .footer-main { max-width: 1200px; margin: 0 auto; padding: 64px 24px 48px; display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px; }
+    .footer-logo-wrap { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; }
+    .footer-logo-wrap img { height: 48px; }
+    .footer-brand-text .fbt-main { font-family: 'Playfair Display', serif; font-size: 1.05rem; color: var(--white); font-weight: 700; }
+    .footer-brand-text .fbt-sub { font-size: 0.65rem; color: var(--gold-light); letter-spacing: 0.12em; text-transform: uppercase; }
+    .footer-brand p { font-size: 0.88rem; line-height: 1.75; color: rgba(255,255,255,0.5); margin-bottom: 20px; }
+    .footer-social { display: flex; gap: 10px; }
+    .fsoc { width: 38px; height: 38px; border-radius: 10px; background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.7); text-decoration: none; font-size: 0.9rem; transition: all 0.25s; }
+    .fsoc:hover { background: var(--gold); color: var(--navy); border-color: var(--gold); }
+    .footer-col h4 { font-family: 'Playfair Display', serif; font-size: 0.95rem; color: var(--white); margin-bottom: 20px; position: relative; padding-bottom: 12px; }
+    .footer-col h4::after { content: ''; position: absolute; bottom: 0; left: 0; width: 28px; height: 2px; background: var(--gold); border-radius: 2px; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .footer-col ul a { font-size: 0.88rem; color: rgba(255,255,255,0.5); text-decoration: none; transition: color 0.2s; display: flex; align-items: center; gap: 6px; }
+    .footer-col ul a:hover { color: var(--gold-light); }
+    .footer-col ul a::before { content: '›'; color: var(--gold); font-size: 1rem; }
+    .fci-item { display: flex; align-items: center; gap: 10px; font-size: 0.85rem; color: rgba(255,255,255,0.5); margin-bottom: 12px; }
+    .fci-icon { width: 32px; height: 32px; background: rgba(184,144,46,0.12); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 0.85rem; flex-shrink: 0; color: var(--gold-light); }
+
+    /* ─── WA FLOAT ─── */
+    .wa-float { position: fixed; bottom: 28px; right: 28px; z-index: 9999; }
+    .wa-btn { width: 60px; height: 60px; border-radius: 50%; background: #25d366; display: flex; align-items: center; justify-content: center; text-decoration: none; box-shadow: 0 0 0 0 rgba(37,211,102,0.6), 0 6px 24px rgba(37,211,102,0.4); animation: waGlow 2.5s ease-in-out infinite; transition: transform 0.25s; }
+    .wa-btn:hover { transform: scale(1.12); }
+    .wa-btn svg { width: 30px; height: 30px; fill: white; }
+    @keyframes waGlow { 0%, 100% { box-shadow: 0 0 0 0 rgba(37,211,102,0.6), 0 6px 24px rgba(37,211,102,0.4); } 50% { box-shadow: 0 0 0 14px rgba(37,211,102,0), 0 6px 24px rgba(37,211,102,0.4); } }
+    .wa-tooltip { position: absolute; bottom: 70px; right: 0; background: var(--navy); color: var(--white); font-size: 0.78rem; font-weight: 600; padding: 6px 12px; border-radius: 8px; white-space: nowrap; opacity: 0; transform: translateY(6px); transition: all 0.25s; pointer-events: none; border: 1px solid rgba(184,144,46,0.3); }
+    .wa-float:hover .wa-tooltip { opacity: 1; transform: translateY(0); }
+
+    /* ─── RESPONSIVE ─── */
+    @media (max-width: 1024px) {
+      .who-grid, .story-grid { grid-template-columns: 1fr; gap: 40px; }
+      .mv-grid { grid-template-columns: 1fr; }
+      .values-grid { grid-template-columns: repeat(2, 1fr); }
+      .faq-grid { grid-template-columns: 1fr; }
+      .footer-main { grid-template-columns: 1fr 1fr; gap: 32px; }
+      .ring-2, .ring-3 { display: none; }
+    }
+    @media (max-width: 768px) {
+      .header-top { display: none; }
+      .nav-links { display: none; }
+      .hamburger { display: flex; }
+      .logo-frame { width: 200px; height: 200px; }
+      .logo-img-main { width: 130px; height: 130px; }
+      .ring-1 { width: 320px; height: 320px; }
+      .stat-box-row { grid-template-columns: 1fr 1fr; }
+      .trust-badges { gap: 12px; }
+      .footer-main { grid-template-columns: 1fr; gap: 28px; }
+      .contact-methods { flex-direction: column; align-items: center; }
+    }
+    @media (max-width: 480px) {
+      .values-grid { grid-template-columns: 1fr; }
+      .logo-brand-name { font-size: 1.7rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ─── HEADER ─── -->
+<header>
+  <div class="header-top">
+    <div class="header-top-inner">
+      <span>📍 ডিজিটাল সার্ভিস | সারা বিশ্বে সেবা প্রদান করা হয়</span>
+      <div class="ht-right">
+        <a href="mailto:info@visaverificationcenter.com">📧 info@visaverificationcenter.com</a>
+        <a href="https://wa.me/8801943160122">📱 01943-160122</a>
+      </div>
+    </div>
+  </div>
+  <nav>
+    <a href="index.html" class="logo-wrap">
+      <div class="logo-text">
+        <span class="lt-main">Visa Verification Center</span>
+        <span class="lt-sub">Global Trust, Local Assurance</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">হোম</a></li>
+      <li><a href="services.html">সার্ভিস</a></li>
+      <li><a href="about.html" class="active">আমাদের সম্পর্কে</a></li>
+      <li><a href="contact.html">যোগাযোগ</a></li>
+      <li><a href="https://wa.me/8801943160122" class="nav-cta">ভেরিফাই করুন ✓</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMobileNav()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+</header>
+
+<!-- ─── MOBILE NAV ─── -->
+<div class="mobile-nav" id="mobileNav">
+  <button class="mobile-nav-close" onclick="toggleMobileNav()">✕</button>
+  <a href="index.html" onclick="toggleMobileNav()">হোম</a>
+  <a href="services.html" onclick="toggleMobileNav()">সার্ভিস</a>
+  <a href="about.html" onclick="toggleMobileNav()">আমাদের সম্পর্কে</a>
+  <a href="contact.html" onclick="toggleMobileNav()">যোগাযোগ</a>
+  <a href="https://wa.me/8801943160122" style="color:#25d366;" onclick="toggleMobileNav()">WhatsApp</a>
+</div>
+
+<!-- ═══════════════════════════════════════
+     LOGO HERO — THE MAIN SHOWCASE
+════════════════════════════════════════ -->
+<section class="logo-hero">
+  <div class="hero-grid-bg"></div>
+  <div class="logo-glow"></div>
+  <div class="ring ring-1"></div>
+  <div class="ring ring-2"></div>
+  <div class="ring ring-3"></div>
+  <div class="corner-deco corner-tl"></div>
+  <div class="corner-deco corner-tr"></div>
+  <div class="corner-deco corner-bl"></div>
+  <div class="corner-deco corner-br"></div>
+
+  <div class="logo-showcase">
+    <!-- Logo Frame -->
+    <div class="logo-frame">
+      <div class="logo-frame-corners"></div>
+      <div class="logo-frame-corners logo-frame-corners-2"></div>
+      <img
+        src="logo.png"
+        alt="Visa Verification Center Logo"
+        class="logo-img-main"
+        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+      />
+      <div class="logo-fallback" style="display:none;">
+        <div class="lf-shield">🛡️</div>
+        <div class="lf-text">VVC</div>
+      </div>
+    </div>
+
+    <!-- Brand Name -->
+    <h1 class="logo-brand-name">
+      Visa <em>Verification</em> Center
+    </h1>
+    <p class="logo-brand-sub">Bangladesh — Global Trust, Local Assurance</p>
+
+    <!-- Tagline -->
+    <p class="logo-tagline">
+      বাংলাদেশের <strong>সবচেয়ে বিশ্বস্ত</strong> স্বতন্ত্র ডকুমেন্ট ভেরিফিকেশন কনসালটেন্সি।<br/>
+      আপনার স্বপ্নের বিদেশ যাত্রাকে <strong>নিরাপদ ও প্রতারণামুক্ত</strong> রাখতে আমরা প্রতিশ্রুতিবদ্ধ।
+    </p>
+
+    <!-- Trust badges -->
+    <div class="trust-badges">
+      <div class="tb"><div class="tb-dot"></div> সরকার অনুমোদিত কনসালটেন্সি</div>
+      <div class="tb"><div class="tb-dot"></div> ৪০+ বছরের অভিজ্ঞতা</div>
+      <div class="tb"><div class="tb-dot"></div> ১০০% ডিজিটাল সার্ভিস</div>
+      <div class="tb"><div class="tb-dot"></div> বিশ্বব্যাপী কভারেজ</div>
+    </div>
+  </div>
+
+  <div class="scroll-cue">
+    <span>নিচে স্ক্রল করুন</span>
+    <div class="scroll-arrow"></div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     WHO WE ARE
+════════════════════════════════════════ -->
+<section class="section who-section">
+  <div class="section-inner">
+    <div class="who-grid">
+      <div class="who-left reveal">
+        <span class="section-tag">আমরা কারা</span>
+        <h2 class="section-title">ভিসা ভেরিফিকেশন সেন্টার, বাংলাদেশ</h2>
+        <span class="gold-line"></span>
+        <p class="section-desc" style="margin-bottom: 20px;">
+          ভিসা ভেরিফিকেশন সেন্টার কোনো ভিসা প্রসেসিং এজেন্সি নয় — আমরা একটি <strong>স্বতন্ত্র ও নির্ভরযোগ্য ডকুমেন্ট ভেরিফিকেশন কনসালটেন্সি।</strong> আমাদের মূল লক্ষ্য হলো বিদেশগামী সাধারণ মানুষকে জাল ভিসা, ভুয়া ওয়ার্ক পারমিট এবং প্রতারক চক্রের হাত থেকে রক্ষা করা।
+        </p>
+        <p class="section-desc" style="margin-bottom: 20px;">
+          বর্তমানে অস্ট্রেলিয়া, লাওসসহ বিভিন্ন দেশে যাওয়ার নামে অনেক মানুষ ভুয়া অফার লেটার ও জাল ভিসার শিকার হচ্ছেন। আমরা সরাসরি অফিশিয়াল সোর্স ও ডাটাবেস থেকে তথ্য যাচাই করে আপনাকে <strong>১০০% নির্ভুল রিপোর্ট</strong> প্রদান করি।
+        </p>
+        <p class="section-desc">
+          আমরা বিদেশে লোক পাঠাই না — তাই এখানে আমাদের কোনো লুকানো স্বার্থ নেই। <strong>শুধু সত্য তথ্য, সম্পূর্ণ স্বচ্ছতা।</strong>
+        </p>
+
+        <div class="stat-box-row">
+          <div class="stat-box">
+            <span class="sb-num">৪০+</span>
+            <div class="sb-label">বছরের অভিজ্ঞতা</div>
+          </div>
+          <div class="stat-box">
+            <span class="sb-num">১০০%</span>
+            <div class="sb-label">ডিজিটাল সার্ভিস</div>
+          </div>
+          <div class="stat-box">
+            <span class="sb-num">বিশ্বব্যাপী</span>
+            <div class="sb-label">সার্ভিস কভারেজ</div>
+          </div>
+          <div class="stat-box">
+            <span class="sb-num">২৪ ঘণ্টা</span>
+            <div class="sb-label">দ্রুত রিপোর্ট</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="who-right reveal">
+        <div class="who-image-card">
+          <p class="wic-quote">
+            "আপনার কষ্টার্জিত অর্থ এবং মূল্যবান সময় যেন কোনো ভুল জায়গায় নষ্ট না হয়, তা নিশ্চিত করতেই আমাদের এই বিশেষজ্ঞ টিমের পথচলা।"
+          </p>
+          <div class="wic-author">— ভিসা ভেরিফিকেশন সেন্টার, বাংলাদেশ</div>
+
+          <div style="margin-top: 28px; padding-top: 24px; border-top: 1px solid rgba(184,144,46,0.2); display: flex; flex-direction: column; gap: 12px;">
+            <div style="display:flex; align-items:center; gap:12px; font-size:0.88rem; color:rgba(255,255,255,0.7);">
+              <span style="color:var(--gold-light); font-size:1rem;">✓</span>
+              সরকার অনুমোদিত স্বতন্ত্র কনসালটেন্সি
+            </div>
+            <div style="display:flex; align-items:center; gap:12px; font-size:0.88rem; color:rgba(255,255,255,0.7);">
+              <span style="color:var(--gold-light); font-size:1rem;">✓</span>
+              কোনো মানপাওয়ার বা নিয়োগ সংস্থার সাথে সম্পৃক্ত নয়
+            </div>
+            <div style="display:flex; align-items:center; gap:12px; font-size:0.88rem; color:rgba(255,255,255,0.7);">
+              <span style="color:var(--gold-light); font-size:1rem;">✓</span>
+              কোনো দূতাবাস বা সরকারি সংস্থার অধীনে নয়
+            </div>
+            <div style="display:flex; align-items:center; gap:12px; font-size:0.88rem; color:rgba(255,255,255,0.7);">
+              <span style="color:var(--gold-light); font-size:1rem;">✓</span>
+              সম্পূর্ণ তৃতীয় পক্ষ নিরপেক্ষ ভেরিফিকেশন সেবা
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     MISSION & VISION
+════════════════════════════════════════ -->
+<section class="section mv-section">
+  <div class="section-inner">
+    <div class="reveal" style="text-align:center; margin-bottom:48px;">
+      <span class="section-tag" style="justify-content:center;">আমাদের লক্ষ্য</span>
+      <h2 class="section-title" style="text-align:center;">মিশন ও ভিশন</h2>
+      <span class="gold-line" style="margin:16px auto 0; display:block; width:60px;"></span>
+    </div>
+    <div class="mv-grid">
+      <div class="mv-card mv-card-mission reveal">
+        <span class="mvc-icon">🎯</span>
+        <h3 class="mvc-title">আমাদের <span>মিশন</span></h3>
+        <p class="mvc-text">
+          বিদেশে যাওয়ার স্বপ্ন পূরণের শেষ ধাপে কোনো ঝুঁকি নেবেন না। অনেক সময় বৈধ কাগজের ভিড়ে সূক্ষ্মভাবে জাল ভিসা ধরিয়ে দেওয়া হয়, যা এয়ারপোর্ট বা ইমিগ্রেশনে ধরা পড়লে আপনার পুরো ক্যারিয়ার হুমকির মুখে পড়তে পারে।
+          <br/><br/>
+          আমরা সরাসরি অফিশিয়াল সোর্স ও ডাটাবেস থেকে তথ্য যাচাই করে আপনাকে ১০০% নির্ভুল রিপোর্ট প্রদান করি — যাতে আপনি নিশ্চিন্তে এবং সম্পূর্ণ নিরাপদে বিদেশ যাত্রা করতে পারেন।
+        </p>
+      </div>
+      <div class="mv-card mv-card-vision reveal">
+        <span class="mvc-icon">🌟</span>
+        <h3 class="mvc-title">আমাদের <span>ভিশন</span></h3>
+        <p class="mvc-text">
+          আমাদের স্বপ্ন হলো এমন একটি বাংলাদেশ গড়া, যেখানে কোনো মানুষ জাল ভিসা বা প্রতারক দলালের শিকার হয়ে তার স্বপ্ন ও সঞ্চয় হারাবে না।
+          <br/><br/>
+          আমরা বিশ্বাস করি যে সঠিক তথ্য ও সচেতনতাই হলো সর্বোত্তম সুরক্ষা। ভিসা ভেরিফিকেশন সেন্টার বাংলাদেশের প্রতিটি বিদেশগামী মানুষের জন্য একটি <strong>নির্ভরযোগ্য ঢাল</strong> হিসেবে সর্বদা পাশে থাকবে।
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     OUR STORY / SERVICES
+════════════════════════════════════════ -->
+<section class="section story-section">
+  <div class="section-inner">
+    <div class="story-grid">
+      <div class="story-left reveal">
+        <span class="section-tag">আমাদের কাহিনী</span>
+        <h2 class="section-title">কেন আমাদের ভেরিফিকেশন সার্ভিস গ্রহণ করবেন?</h2>
+        <span class="gold-line"></span>
+
+        <div class="story-block">
+          <h4>🔍 বিশেষজ্ঞ টিম</h4>
+          <p>দীর্ঘ ৪০ বছরের অভিজ্ঞতা নিয়ে আমাদের বিশেষজ্ঞ দল প্রতিটি ডকুমেন্ট নিখুঁতভাবে যাচাই করে সরাসরি সোর্স থেকে।</p>
+        </div>
+
+        <div class="story-block">
+          <h4>💰 আর্থিক নিরাপত্তা</h4>
+          <p>লক্ষ লক্ষ টাকা পেমেন্ট করার আগে মাত্র কয়েক হাজার টাকায় প্রফেশনাল রিপোর্ট নিয়ে নিজেকে সুরক্ষিত রাখুন। আমাদের পরামর্শ নিয়ে কাজ করলে আপনি কারো দ্বারা প্রতারণার শিকার হবেন না।</p>
+        </div>
+
+        <div class="story-block">
+          <h4>🏛️ সম্পূর্ণ স্বচ্ছতা</h4>
+          <p>আমরা আপনাকে কেবল তথ্য দেই, কোনো অলীক আশ্বাস নয়। আমরা বিদেশে লোক পাঠাই না, তাই এখানে আমাদের কোনো লুকানো স্বার্থ জড়িত নেই।</p>
+        </div>
+
+        <div class="story-highlight">
+          <p><strong>"ভিসা চেক না করে টাকা দেবেন না!"</strong> — এটিই আমাদের মূলমন্ত্র এবং আমাদের প্রতিটি সেবার ভিত্তি।</p>
+        </div>
+      </div>
+
+      <div class="story-right reveal">
+        <span class="section-tag">আমরা যা যাচাই করি</span>
+        <h3 style="font-family:'Playfair Display',serif; font-size:1.4rem; color:var(--navy); margin-bottom:28px; font-weight:700;">সম্পূর্ণ ডকুমেন্ট ভেরিফিকেশন সেবা</h3>
+        <div class="what-we-verify-list">
+          <div class="wvl-item">
+            <div class="wvl-icon">🛂</div>
+            <div class="wvl-text">ই-ভিসা ও স্টিকার ভিসার সত্যতা যাচাই</div>
+          </div>
+          <div class="wvl-item">
+            <div class="wvl-icon">💼</div>
+            <div class="wvl-text">ওয়ার্ক পারমিট ও জব অফার লেটার যাচাই</div>
+          </div>
+          <div class="wvl-item">
+            <div class="wvl-icon">✉️</div>
+            <div class="wvl-text">ইনভাইটেশন লেটার ও স্পন্সরশিপের বৈধতা</div>
+          </div>
+          <div class="wvl-item">
+            <div class="wvl-icon">✈️</div>
+            <div class="wvl-text">এয়ার টিকিট কনফার্মেশন ও PNR যাচাই</div>
+          </div>
+          <div class="wvl-item">
+            <div class="wvl-icon">🏨</div>
+            <div class="wvl-text">হোটেল বুকিং কনফার্মেশন যাচাই</div>
+          </div>
+          <div class="wvl-item">
+            <div class="wvl-icon">🏢</div>
+            <div class="wvl-text">এজেন্সি ও কোম্পানির নিবন্ধন যাচাই</div>
+          </div>
+          <div class="wvl-item">
+            <div class="wvl-icon">📄</div>
+            <div class="wvl-text">পাসপোর্ট তথ্য ক্রস-ভেরিফিকেশন</div>
+          </div>
+          <div class="wvl-item">
+            <div class="wvl-icon">🌍</div>
+            <div class="wvl-text">যেকোনো দেশের ভিসা ও ডকুমেন্ট</div>
+          </div>
+        </div>
+
+        <a href="services.html" style="display:inline-flex;align-items:center;gap:10px;margin-top:28px;background:linear-gradient(135deg,var(--gold),var(--gold-light));color:var(--navy);font-weight:700;padding:14px 28px;border-radius:10px;text-decoration:none;font-size:0.95rem;box-shadow:0 4px 16px rgba(184,144,46,0.3);transition:all 0.3s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+          সব প্যাকেজ দেখুন →
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     VALUES
+════════════════════════════════════════ -->
+<section class="section values-section">
+  <div class="section-inner">
+    <div class="reveal" style="text-align:center; margin-bottom:56px;">
+      <span class="section-tag" style="color:var(--gold-light); justify-content:center;"><span style="display:block;width:28px;height:2px;background:var(--gold-light);border-radius:2px;"></span>আমাদের মূল্যবোধ</span>
+      <h2 class="section-title" style="color:var(--white); text-align:center;">যা আমাদের আলাদা করে</h2>
+      <span class="gold-line" style="margin:16px auto 0;display:block;width:60px;background:linear-gradient(90deg,var(--gold-light),transparent);"></span>
+    </div>
+    <div class="values-grid">
+      <div class="value-card reveal">
+        <span class="vc-icon">🛡️</span>
+        <div class="vc-title">বিশ্বাসযোগ্যতা</div>
+        <div class="vc-desc">প্রতিটি রিপোর্ট সর্বোচ্চ সততা ও দায়িত্বের সাথে তৈরি করা হয়। আমরা যা বলি, তাই করি।</div>
+      </div>
+      <div class="value-card reveal">
+        <span class="vc-icon">🔍</span>
+        <div class="vc-title">নির্ভুলতা</div>
+        <div class="vc-desc">সরাসরি অফিশিয়াল সোর্স থেকে তথ্য সংগ্রহ করি। কোনো অনুমান নেই, শুধু তথ্য।</div>
+      </div>
+      <div class="value-card reveal">
+        <span class="vc-icon">🔒</span>
+        <div class="vc-title">গোপনীয়তা</div>
+        <div class="vc-desc">আপনার সকল ডকুমেন্ট ও তথ্য কঠোর নিরাপত্তায় সংরক্ষিত এবং শুধু ভেরিফিকেশনে ব্যবহৃত।</div>
+      </div>
+      <div class="value-card reveal">
+        <span class="vc-icon">⚡</span>
+        <div class="vc-title">দ্রুততা</div>
+        <div class="vc-desc">বেসিক ভেরিফিকেশন মাত্র ২৪ ঘণ্টায়। কারণ আপনার সময় মূল্যবান।</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     FAQ
+════════════════════════════════════════ -->
+<section class="section faq-strip" style="background:var(--white);">
+  <div class="section-inner">
+    <div class="reveal" style="margin-bottom:40px;">
+      <span class="section-tag">সাধারণ জিজ্ঞাসা</span>
+      <h2 class="section-title">আমাদের সম্পর্কে প্রশ্ন</h2>
+      <span class="gold-line"></span>
+    </div>
+    <div class="faq-grid">
+      <div class="faq-item reveal">
+        <div class="faq-question" onclick="toggleFAQ(this)">
+          <span>VVC কি কোনো সরকারি সংস্থা?</span>
+          <div class="faq-toggle">+</div>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">না, VVC সরকারি সংস্থা নয়। আমরা বাংলাদেশ সরকার অনুমোদিত একটি স্বতন্ত্র প্রাইভেট কনসালটেন্সি। আমরা কোনো সরকারি সংস্থা, দূতাবাস বা মানপাওয়ার এজেন্সির সাথে সম্পৃক্ত নই।</div>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-question" onclick="toggleFAQ(this)">
+          <span>VVC কি ভিসা অ্যাপ্রুভাল গ্যারান্টি দেয়?</span>
+          <div class="faq-toggle">+</div>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">না। VVC শুধুমাত্র ডকুমেন্টের সত্যতা যাচাই করে। চূড়ান্ত ভিসার সিদ্ধান্ত সংশ্লিষ্ট দূতাবাস নেয়, এবং আমরা তা গ্যারান্টি দিতে পারি না। তবে ডকুমেন্ট প্রস্তুতিতে সহায়তার জন্য কনসালটেশন সার্ভিস রয়েছে।</div>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-question" onclick="toggleFAQ(this)">
+          <span>আমার ব্যক্তিগত তথ্য কি নিরাপদ থাকবে?</span>
+          <div class="faq-toggle">+</div>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">হ্যাঁ। VVC-তে জমা দেওয়া সকল ডকুমেন্ট ও ব্যক্তিগত তথ্য কঠোর গোপনীয়তার সাথে পরিচালিত হয় এবং শুধুমাত্র ভেরিফিকেশনের উদ্দেশ্যে ব্যবহার করা হয়। তৃতীয় কোনো পক্ষের সাথে তথ্য শেয়ার করা হয় না।</div>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-question" onclick="toggleFAQ(this)">
+          <span>বাংলাদেশের বাইরে থেকে সার্ভিস নেওয়া যাবে?</span>
+          <div class="faq-toggle">+</div>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">হ্যাঁ। VVC-এর সকল সেবা সম্পূর্ণ ডিজিটাল এবং বিশ্বের যেকোনো প্রান্ত থেকে গ্রহণযোগ্য। ডকুমেন্ট ইমেইল বা WhatsApp এর মাধ্যমে জমা দেওয়া যায়।</div>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-question" onclick="toggleFAQ(this)">
+          <span>VVC কি ট্যাক্স কাটে?</span>
+          <div class="faq-toggle">+</div>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">না, VVC ক্লায়েন্টদের কাছ থেকে কোনো ট্যাক্স সংগ্রহ করে না। সকল স্ট্যান্ডার্ড সার্ভিস ফি ট্যাক্স ছাড়াই নেওয়া হয়। তবে আপনি যদি ট্যাক্সসহ ইনভয়েস চান, আমাদের জানান।</div>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-question" onclick="toggleFAQ(this)">
+          <span>সরাসরি অফিসে আসা যাবে?</span>
+          <div class="faq-toggle">+</div>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">VVC সম্পূর্ণ ডিজিটাল সার্ভিস প্রোভাইডার। সরাসরি সাক্ষাৎ অত্যন্ত সীমিত এবং শুধুমাত্র পূর্ব অনুমোদন ও পেইড কনসালটেশনের ভিত্তিতে সম্ভব। বিস্তারিত আমাদের সাথে যোগাযোগ করুন।</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── CONTACT BANNER ─── -->
+<div class="contact-banner">
+  <div class="contact-banner-inner">
+    <h2>আজই যোগাযোগ করুন</h2>
+    <p>আপনার স্বপ্ন এবং বিনিয়োগ নিরাপদ রাখতে আজই আমাদের সাথে কথা বলুন।<br/><strong style="color:var(--gold-light);">ভিসা চেক না করে টাকা দেবেন না!</strong></p>
+    <div class="contact-methods">
+      <a href="https://wa.me/8801943160122" class="cm-card">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#25d366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+        WhatsApp: 01943-160122
+      </a>
+      <a href="mailto:info@visaverificationcenter.com" class="cm-card">
+        <span>📧</span> info@visaverificationcenter.com
+      </a>
+      <a href="services.html" class="cm-card">
+        <span>📋</span> সার্ভিস প্যাকেজ দেখুন
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- ─── FOOTER ─── -->
+<footer>
+  <div class="footer-main">
+    <div class="footer-brand">
+      <div class="footer-logo-wrap">
+        <div class="footer-brand-text">
+          <div class="fbt-main">Visa Verification Center</div>
+          <div class="fbt-sub">Global Trust, Local Assurance</div>
+        </div>
+      </div>
+      <p>বাংলাদেশের বিশ্বস্ত ডকুমেন্ট ভেরিফিকেশন সংস্থা। জাল ভিসা ও প্রতারণা থেকে সাধারণ মানুষকে রক্ষা করাই আমাদের লক্ষ্য।</p>
+      <div class="footer-social">
+        <a href="https://wa.me/8801943160122" class="fsoc" title="WhatsApp">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+        </a>
+        <a href="mailto:info@visaverificationcenter.com" class="fsoc">📧</a>
+        <a href="#" class="fsoc">f</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>পেজসমূহ</h4>
+      <ul>
+        <li><a href="index.html">হোম</a></li>
+        <li><a href="services.html">সার্ভিস</a></li>
+        <li><a href="about.html">আমাদের সম্পর্কে</a></li>
+        <li><a href="contact.html">যোগাযোগ</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>সার্ভিস</h4>
+      <ul>
+        <li><a href="services.html#basic">বেসিক — ৳১,০০০</a></li>
+        <li><a href="services.html#standard">স্ট্যান্ডার্ড — ৳২,০০০</a></li>
+        <li><a href="services.html#premium">প্রিমিয়াম — ৳১০,০০০</a></li>
+        <li><a href="services.html#consultation">কনসালটেশন</a></li>
+        <li><a href="terms.html">শর্তাবলী</a></li>
+        <li><a href="refund.html">রিফান্ড পলিসি</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>যোগাযোগ</h4>
+      <div>
+        <div class="fci-item"><div class="fci-icon">📱</div><a href="https://wa.me/8801943160122" style="color:rgba(255,255,255,0.5);text-decoration:none;">01943-160122</a></div>
+        <div class="fci-item"><div class="fci-icon">📧</div><a href="mailto:info@visaverificationcenter.com" style="color:rgba(255,255,255,0.5);text-decoration:none;font-size:0.78rem;">info@visaverificationcenter.com</a></div>
+        <div class="fci-item"><div class="fci-icon">🌐</div><span>সম্পূর্ণ ডিজিটাল সার্ভিস</span></div>
+        <div class="fci-item"><div class="fci-icon">🕐</div><span>শনি–বৃহস্পতি, ৯টা–৯টা</span></div>
+      </div>
+    </div>
+  </div>
+  <div style="max-width:1200px;margin:0 auto;padding:0 24px;">
+    <div style="border-top:1px solid rgba(184,144,46,0.12);padding:20px 0;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;">
+      <p style="font-size:0.82rem;color:rgba(255,255,255,0.3);">© ২০২৬ Visa Verification Center. সকল স্বত্ব সংরক্ষিত।</p>
+      <div style="display:flex;gap:20px;">
+        <a href="terms.html" style="font-size:0.82rem;color:rgba(255,255,255,0.4);text-decoration:none;">শর্তাবলী</a>
+        <a href="refund.html" style="font-size:0.82rem;color:rgba(255,255,255,0.4);text-decoration:none;">রিফান্ড পলিসি</a>
+        <a href="privacy.html" style="font-size:0.82rem;color:rgba(255,255,255,0.4);text-decoration:none;">প্রাইভেসি পলিসি</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ─── WA FLOAT ─── -->
+<div class="wa-float">
+  <div class="wa-tooltip">WhatsApp এ চ্যাট করুন</div>
+  <a href="https://wa.me/8801943160122" class="wa-btn" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+  </a>
+</div>
+
+<script>
+  function toggleMobileNav() {
+    document.getElementById('mobileNav').classList.toggle('open');
+  }
+
+  function toggleFAQ(el) {
+    const item = el.closest('.faq-item');
+    document.querySelectorAll('.faq-item').forEach(i => { if (i !== item) i.classList.remove('open'); });
+    item.classList.toggle('open');
+  }
+
+  const reveals = document.querySelectorAll('.reveal');
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const siblings = Array.from(entry.target.parentElement?.children || []);
+        const delay = siblings.indexOf(entry.target) * 90;
+        setTimeout(() => entry.target.classList.add('visible'), Math.min(delay, 400));
+        obs.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+  reveals.forEach(el => obs.observe(el));
+
+  window.addEventListener('scroll', () => {
+    document.querySelector('header').style.boxShadow = window.scrollY > 60 ? '0 4px 32px rgba(13,31,60,0.4)' : 'none';
+  });
+</script>
+</body>
+</html>
